@@ -13,5 +13,5 @@ config = {
     "cleaned_dir": os.path.join(os.getenv('TEMP'), "output_renamed_pdfs_cleaned"),
 
     # Step 3: Base directory for merged output files (merged pdfs, json file)
-    "output_dir": "C:\\Users\\dg\\Documents\\Past Papers\\SL\\Merged_Papers",
+    "output_dir": "output",
 }

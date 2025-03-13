@@ -5,24 +5,12 @@ This tool is used to turn a IB style folder full of Computer Science past papers
   - There is no copyright notice pages to save space
   - There have been bookmarks added to facilitate navigation
 - A json file of all questions and topics (for providing to a LLM for training)
-- 
-## Note
-- Works on Windows only 
-- It produces a rather large PDF that I then use Acrobat Pro DC to compress
-- I am removing all but Option D questions from the Paper 2 question to streamline my students
 
-## TODO
-- make it so you dont have to change the variables
-- make it so its one tool
-- add code to compress the pdf similar to how adobe does it.
-
+## What's not done
+- The final produced merged pdfs are rather huge
+  - Hence, I recommend you use Adobe PDF Pro DC and compress them
+  
 ## Steps to use
-| Script                               | Description               |
-|--------------------------------------|---------------------------|
-| 1. copy_and_rename_past_papers.py    | name the pdfs with date   |
-| 2. past_paper_pdf_cleaner.py         | remove all but Option D   |
-| 3. process_questions_to_make_json.py | make a json               |
-| 4. merge_pdf.py | make the pdfs merged pdfs | 
-| then compress the pdf with external tool |
-
-
+1. edit config_loader.py to make sure your ok with the paths it uses
+2. run main
+3. Enjoy the files
