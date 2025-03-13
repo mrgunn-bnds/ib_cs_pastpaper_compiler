@@ -11,6 +11,7 @@ This tool is used to turn a IB style folder full of Computer Science past papers
   - Hence, I recommend you use Adobe PDF Pro DC and compress them
   
 ## Steps to use
-1. edit config_loader.py to make sure your ok with the paths it uses
+1. edit config_loader.py to point to where all the HL pdfs are
 2. run main
 3. Enjoy the files
+4. repeat step 1-3 for the SL
